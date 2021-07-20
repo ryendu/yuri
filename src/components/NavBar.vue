@@ -1,0 +1,50 @@
+<template>
+	<div class="nav-bar">
+		<div class="spacer-fg5"></div>
+		<div class="nav-item">
+			<a href="">Home</a>
+		</div>
+		<div class="nav-item">
+			<a href="">About</a>
+		</div>
+		<div class="nav-item">
+			<a href="">Blog</a>
+		</div>
+		<div class="nav-item">
+			<a href="">Contact</a>
+		</div>
+	</div>
+</template>
+
+<script>
+
+export default {
+	name: "NavBar",
+}
+</script>
+
+<style scoped>
+	.nav-bar {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.nav-item {
+		flex-grow: 1;
+		font-weight: 500;
+		color: white;
+	}
+	.nav-item a, .nav-item a:visited{
+		text-decoration: none;
+		color: white;
+		transition: all 0.1s ease-in-out;
+	}
+	.spacer-fg5{
+		flex-grow: 5;
+	}
+	.nav-item a:hover {
+		color: cyan;
+		font-size: 1.1rem;
+		
+	}
+</style>
