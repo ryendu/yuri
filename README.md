@@ -1,4 +1,4 @@
-# yuri-blog
+# yuri
 
 ## Project setup
 ```
