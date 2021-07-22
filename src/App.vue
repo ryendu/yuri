@@ -1,13 +1,16 @@
 <template>
   <div class="container">
     <NavBar/>
-    <HomePage/>
+    <router-view>
+      <Home/>
+    </router-view>
+    
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
-import HomePage from './components/HomePage.vue'
+import Home from './views/Home.vue'
 export default {
   name: 'App',
   
@@ -18,7 +21,7 @@ export default {
   },
   components: {
      NavBar,
-     HomePage
+     Home
   }
 }
 </script>

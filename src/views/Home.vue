@@ -1,15 +1,16 @@
 <template>
 	<div class="homepage">
-		<TitleName/>
+		<TitleName firstName="Lorem" lastName="Ipsum" subtitle="Writer, Dreamer, Creator"/>
 		<SideBlobs/>
+
 	</div>
 </template>
 
 <script>
-import TitleName from './TitleName.vue';
-import SideBlobs from './SideBlobs.vue';
+import TitleName from '../components/TitleName.vue';
+import SideBlobs from '../components/SideBlobs.vue';
 export default {
-	name:'HomePage',
+	name:'Home',
 	components: {
 		TitleName,
 		SideBlobs
@@ -28,6 +29,8 @@ export default {
 	display: flex;
 	flex-direction: column;
 }
+
+
 
 
 </style>

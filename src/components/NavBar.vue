@@ -2,16 +2,16 @@
 	<div class="nav-bar">
 		<div class="spacer-fg5"></div>
 		<div class="nav-item">
-			<a href="">Home</a>
+			<router-link to="/">Home</router-link>
 		</div>
 		<div class="nav-item">
-			<a href="">About</a>
+			<router-link to="/About">About</router-link>
 		</div>
 		<div class="nav-item">
-			<a href="">Blog</a>
+			<router-link to="/Blog">Blog</router-link>
 		</div>
 		<div class="nav-item">
-			<a href="">Contact</a>
+			<router-link to="/Contact">Contact</router-link>
 		</div>
 	</div>
 </template>

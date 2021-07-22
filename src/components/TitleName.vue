@@ -1,25 +1,32 @@
 <template>
 	<div class="big-name" id="first-name">
 		<div class="overlay">
-			<h1>Lorem</h1>
+			<h1>{{firstName}}</h1>
 		</div>
 		<div class="shadow">
-			<h1>Lorem</h1>
+			<h1>{{firstName}}</h1>
 		</div>
 	</div>
 	<div class="big-name" id="last-name">
 		<div class="overlay">
-			<h1>Ipsum</h1>
+			<h1>{{lastName}}</h1>
 		</div>
 		<div class="shadow">
-			<h1>Ipsum</h1>
+			<h1>{{lastName}}</h1>
 		</div>
+	</div>
+	<div class="subtitle">
+			{{subtitle}}
 	</div>
 </template>
 <script>
 export default {
 	name: "TitleName",
-	props: {}
+	props: {
+		subtitle: String,
+		firstName: String,
+		lastName: String,
+	}
 }
 </script>
 <style scoped>
@@ -31,6 +38,23 @@ export default {
 	left: 15%;
 	top: 25%;
 }
+
+@media screen and (max-width: 860px) {
+	.big-name{
+		font-size: 3rem;
+		font-weight: 700;
+		text-align: center;
+		position: absolute;
+		left: 10%;
+		top: 25%;
+	}	
+	.big-name .shadow{
+		position: absolute;
+		left: 2px;
+		top: 2px;
+	}
+}
+
 .big-name .overlay{
 	position: absolute;
 	left: 0;
@@ -53,4 +77,11 @@ export default {
 #last-name .shadow{
 	color: red;
 }
+
+.subtitle{
+	font-size: 1rem;
+	left: 10%;
+	top: calc(35% + 15rem);
+}
+
 </style>
