@@ -5,13 +5,13 @@
 			<router-link to="/">Home</router-link>
 		</div>
 		<div class="nav-item">
-			<router-link to="/About">About</router-link>
+			<router-link to="/about">About</router-link>
 		</div>
 		<div class="nav-item">
-			<router-link to="/Blog">Blog</router-link>
+			<router-link to="/blog">Blog</router-link>
 		</div>
 		<div class="nav-item">
-			<router-link to="/Contact">Contact</router-link>
+			<router-link to="/contact">Contact</router-link>
 		</div>
 	</div>
 </template>

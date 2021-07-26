@@ -53,6 +53,9 @@ export default {
 		left: 2px;
 		top: 2px;
 	}
+	.subtitle {
+		transform : translateY(-4rem);
+	}
 }
 
 .big-name .overlay{
@@ -79,9 +82,10 @@ export default {
 }
 
 .subtitle{
+	position: absolute;
 	font-size: 1rem;
-	left: 10%;
-	top: calc(35% + 15rem);
+	left: 13rem;
+	top: calc(40% + 17rem);
 }
 
 </style>
