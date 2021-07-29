@@ -1,7 +1,8 @@
 <template>
 	<footer>
 		<div class="content">
-			This website was handcrafted with love by Ryan Du.
+			This website was handcrafted with ❤️ by <a href="https://github.com/ryendu" target="_blank">Ryan Du</a>.
+
 		</div>
 	</footer>
 </template>
@@ -20,13 +21,20 @@ export default {
 		right: 0;
 		height: 100px;
 		width: 100%;
-		background: #6c757d;
-		/* padding: 10px; */
+		background: #0D0F12;
+		display: flex;
+		justify-content: center;
 	}
-</style>
-
-<style>
+	.content {
+		padding-top: 2rem;
+		color: white;
+	}
 	body {
 		padding-bottom: 100px;
+	}
+	.content a {
+		text-decoration: none;
+		color: white;
+		font-weight: 700;
 	}
 </style>
