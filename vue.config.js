@@ -3,4 +3,3 @@ module.exports = {
     ? '/yuri/'
     : '/'
 }
-// for deploy: git subtree push --prefix dist origin gh-pages
