@@ -36,26 +36,7 @@ export default {
 	text-align: center;
 	position: absolute;
 	left: 15%;
-	top: 25%;
-}
-
-@media screen and (max-width: 860px) {
-	.big-name{
-		font-size: 3rem;
-		font-weight: 700;
-		text-align: center;
-		position: absolute;
-		left: 10%;
-		top: 25%;
-	}	
-	.big-name .shadow{
-		position: absolute;
-		left: 2px;
-		top: 2px;
-	}
-	.subtitle {
-		transform : translateY(-4rem);
-	}
+	/* top: 25%; */
 }
 
 .big-name .overlay{
@@ -74,18 +55,58 @@ export default {
 	color: cyan;
 }
 #last-name {
-	top: calc(30% + 5rem);
-	left: 20rem;
+	top: calc(13.5rem);
+	left: calc(15% + 8.8rem);
 }
 #last-name .shadow{
 	color: red;
 }
 
 .subtitle{
-	position: absolute;
+	/* position: fixed; */
+	text-align: left;
 	font-size: 1rem;
-	left: 13rem;
-	top: calc(40% + 17rem);
+	margin-top: 22rem;
+	margin-left: 10%;
+}
+@media screen and (max-width: 860px) and (min-width: 700px){
+	.big-name{
+		font-size: 3rem;
+		font-weight: 700;
+		text-align: center;
+		left: 10%;
+	}	
+	.big-name .shadow{
+		position: absolute;
+		left: 5px;
+		top: 5px;
+	}
+	.subtitle {
+		font-size: 1rem;
+	}
+	#last-name{
+		top: calc(12rem);
+		left: 11rem;
+	}
 }
 
+@media screen and (max-width: 700px)  {
+	.big-name{
+		font-size: 2rem;
+		font-weight: 600;
+		left: 10%;
+	}	
+	.big-name .shadow{
+		position: absolute;
+		left: 4px;
+		top: 4px;
+	}
+	.subtitle {
+		font-size: 1.5rem;
+	}
+	#last-name{
+		top: calc(11rem);
+		left: 7rem;
+	}	
+}
 </style>

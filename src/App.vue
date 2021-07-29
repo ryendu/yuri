@@ -4,11 +4,12 @@
     <router-view/>
     
   </div>
+  <Footer/>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
-// import Home from './views/Home.vue'
+import Footer from './components/Footer.vue';
 export default {
   name: 'App',
   
@@ -19,17 +20,19 @@ export default {
   },
   components: {
      NavBar,
-    //  Home
+    Footer,
   }
 }
 </script>
 
 <style>
 html, body, #app {
-  height: 100%;
+  height: 200vh;
   margin: 0;
   padding: 0;
   scroll-margin: 0;
+  min-height: 100%;
+  position:relative;
 }
 body {
   background: black;
@@ -37,6 +40,7 @@ body {
 .container {
   margin: 16px;
   margin-top: 60px;
+  height: 200vh;
   padding: 16px;
 }
 #app {
@@ -46,5 +50,16 @@ body {
   text-align: center;
   width: 100%;
   height: 100%;
+  overflow: hidden;
+}
+.page {
+	color:white;
+	font-size: 1.5rem;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	display: flex;
+	flex-direction: column;
 }
 </style>

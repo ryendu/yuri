@@ -26,10 +26,12 @@ export default {
   width: 100%;
   overflow-x: hidden;
 }
+  
 #blob-1 {
   position: absolute;
   top: 1rem;
   right: 10%;
+
 }
 #blob-2 {
   position: absolute;
@@ -40,5 +42,9 @@ export default {
   position: absolute;
   top: 55rem;
   right: 0rem;
+}
+
+#blob-1, #blob-2, #blob-3 {
+  transform: translateX(calc(4rem + 10%));
 }
 </style>
