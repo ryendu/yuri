@@ -21,6 +21,15 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: () => import('../views/Contact.vue')
+  },
+  {
+    path: '/blogpage/',
+    name: 'BlogPage',
+    component: () => import('../subviews/BlogPage.vue'),
+    props: (route) => ({
+        blog: JSON.parse(route.params.blog),
+        ...route.params
+    })
   }
 
 ]
