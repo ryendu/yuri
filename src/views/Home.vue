@@ -1,6 +1,6 @@
 <template>
 	<div class="page">
-		<TitleName firstName="Lorem" lastName="Ipsum" subtitle="Writer, Dreamer, Creator"/>
+		<TitleName firstName="Yuri" lastName="Song" subtitle="Writer, Dreamer, Creator"/>
 		<SideBlobs class="sideblobs"/>
 		<div class="content">
 			<About class="about"/>

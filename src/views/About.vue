@@ -1,12 +1,12 @@
 <template>
   <div class="page">
-    <h2>Hey, I'm Lorem!</h2>
+    <h2>Hey, I'm Yuri!</h2>
     <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure tempore quisquam et hic eum!
+      Nice to meet you! Heres some info about me! Enjoy! 😁. 
     </p>
     <ul>
       <li>
-        I am 15 years old
+        I am 14 years old
       </li>
       <li>
         I am awesome!
