@@ -1,4 +1,5 @@
 # yuri
+A personal website and blog I made for my friend Yuri! 🚀
 
 ## Project setup
 
