@@ -1,7 +1,7 @@
 <template>
 	<div class="page">
 		<h1 id="MainH1">Blog</h1>
-		<caption>hey! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus exercitationem aut unde provident mollitia?</caption>
+		<caption>Hey! Welcome to my blog!</caption>
 		<div class="blogs">
 			<div class="blog" v-for="blog in blogs" :key="blog.id" >
 				<BlogCard v-bind:blog="blog"/>
