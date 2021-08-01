@@ -26,6 +26,7 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400&display=swap');
 html, body, #app {
   height: 200vh;
   margin: 0;
@@ -44,7 +45,7 @@ body {
   padding: 16px;
 }
 #app {
-  font-family: Montserrat, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
