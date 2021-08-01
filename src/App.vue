@@ -44,7 +44,7 @@ body {
   padding: 16px;
 }
 #app {
-  font-family: Montserrat;
+  font-family: Roboto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
